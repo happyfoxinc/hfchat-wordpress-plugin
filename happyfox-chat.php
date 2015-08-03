@@ -2,8 +2,8 @@
 /**
  * Plugin Name: HappyFox Chat
  * Plugin URI: https://happyfoxchat.com/wordpress
- * Description: This plugin adds the HappyFox Chat widget to your Wordpress blog
- * Version: 1.0.0
+ * Description: This plugin adds the HappyFox Chat widget to your WordPress blog
+ * Version: 1.1.0
  * Author: HappyFox Inc.
  * Author URI: http://happyfoxchat.com
  * License: MIT
@@ -21,7 +21,7 @@ function hfc_register_settings() {
 }
 
 function hfc_admin_menu() {
-	add_menu_page('HappyFox Chat Settings', 'HappyFox Chat', 'administrator', 'happyfox-chat-settings', 'happyfox_chat_settings_page', 'dashicons-format-chat');
+    add_menu_page('HappyFox Chat Settings', 'HappyFox Chat', 'administrator', 'happyfox-chat-settings', 'happyfox_chat_settings_page', 'dashicons-format-chat');
     wp_enqueue_style('happyfox-chat-settings', WP_PLUGIN_URL . '/happyfox-chat/css/style.css');
 }
 
@@ -32,24 +32,20 @@ function happyfox_chat_settings_page() {
 function hfc_setup_widget() {
   if( !session_id() )
     session_start();
-  $error = "";
   if (isset( $_POST['hfc_api_key_submission'] ) && $_POST['hfc_api_key_submission'] == '1') {
-    $url = 'https://happyfoxchat.com/api/v1/integrations/wordpress/widget-info?apiKey='. $_POST['hfc_api_key'];
+    $url = 'https://www.happyfoxchat.com/api/v1/integrations/wordpress/widget-info?apiKey='. $_POST['hfc_api_key'];
     $result = wp_remote_get($url);
-    try {
-        $json = json_decode($result['body']);
-        if(isset($json->embedToken)) {
-            update_option('hfc_api_key', $_POST['hfc_api_key']);
-            update_option('hfc_embed_token', $json->embedToken);
-            update_option('hfc_access_token', $json->accessToken);
-            echo "Success";
-        } else {
-            $error = "Please check your API key";
-        }
-    } catch( Exception $ex ) {
-        $error = "Please check your API key";
+    $authorization_success = False;
+    $json = json_decode($result['body']);
+    if(isset($json->embedToken)) {
+        update_option('hfc_api_key', $_POST['hfc_api_key']);
+        update_option('hfc_embed_token', $json->embedToken);
+        update_option('hfc_access_token', $json->accessToken);
+        $authorization_success = True;
     }
-    $_SESSION['error'] = $error;
+    if(!$authorization_success) {
+        status_header(400);
+    }
   }
 }
 

@@ -1,0 +1,64 @@
+.hfc-settings .header {
+  padding: 30px;
+}
+
+.hfc-settings .header .logo {
+  float: left;
+  width: 92px;
+  height: 92px;
+}
+
+.hfc-settings .header h1 {
+  margin-top: 0;
+}
+
+.hfc-settings .header .content {
+  float: left;
+  padding-left: 20px;
+}
+
+.hfc-settings .header .content p {
+  line-height: 1;
+  color: #777;
+  font-size: 12px;
+}
+
+.hfc-settings .line-break {
+  clear: both;
+}
+
+.hfc-settings .hfc-form {
+  clear: both;
+  padding: 10px 30px;
+}
+
+.hfc-settings .hfc-form .btn-submit {
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  border: none;
+  background-color: #689FCF;
+  padding: 10px;
+  color: white;
+}
+
+#hfc_api_key {
+  width: 300px;
+}
+
+.hfc-settings .footer-text {
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.hfc-settings .error {
+  color: red;
+}
+
+.hfc-settings .success {
+  color: green;
+}
+
+.hide {
+  display: none;
+}

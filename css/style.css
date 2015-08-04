@@ -54,3 +54,11 @@
 .hfc-settings .error {
   color: red;
 }
+
+.hfc-settings .success {
+  color: green;
+}
+
+.hide {
+  display: none;
+}

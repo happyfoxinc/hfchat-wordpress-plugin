@@ -3,7 +3,7 @@ Tags: banckle, Chat, chat online, chat software, click desk, clickdesk, contact 
 Requires at least: 3.5
 Tested up to: 4.2.3
 
-Voted No.1 Live chat software on ProductHunt. Fully loaded with features like unlimited chats, fully customizable widget, app integrations, chat history, canned responses & more. Free for life!
+Voted No.1 Live chat software on ProductHunt. Fully loaded with features like unlimited chats, fully customizable widget, app integrations & more.
 
 == Description ==
 Convert anonymous visitors on your website to leads with HappyFox Chat - Live chat software for the next generation. Improve conversion rates 10X on your ecommerce store, by integrating with third party apps like Shopify, Google Analytics & more. Free!

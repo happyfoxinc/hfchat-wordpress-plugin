@@ -3,7 +3,7 @@
  * Plugin Name: HappyFox Chat
  * Plugin URI: https://happyfoxchat.com/wordpress
  * Description: This plugin adds the HappyFox Chat widget to your WordPress blog
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: HappyFox Inc.
  * Author URI: http://happyfoxchat.com
  * License: MIT

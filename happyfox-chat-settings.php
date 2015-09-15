@@ -23,7 +23,7 @@
     </form>
     <div class='footer-text'>
         <p id="homepage_helper" class="<?php if (!get_option('hfc_api_key')) echo 'hide'; ?>">Visit your <a href="<?php echo home_url() ?>" target="_blank">homepage</a> to see HappyFox Chat in action.</p>
-        <p>Click <a href="https://happyfoxchat.com/a/apps/wordpress/manage/" target="_blank">here</a> to get your API key. New user? <a href="https://happyfoxchat.com/signup?ref=wordpress-plugin" target="_blank">Sign up</a> here for a free HappyFox Chat account.</p>
+        <p>Click <a href="https://happyfoxchat.com/a/apps/wordpress/manage/" target="_blank">here</a> to get your API key. New user? <a href="https://happyfoxchat.com/product-hunt-signup?ref=wordpress-plugin" target="_blank">Sign up</a> here for a free HappyFox Chat account.</p>
         <p>Questions? Come <a href="https://happyfoxchat.com/?ref=wordpress-plugin" target="_blank">chat with us</a> or <a href="mailto:support@happyfoxchat.com">send us an email</a>.
     </div>
     <hr class='line-break'/>

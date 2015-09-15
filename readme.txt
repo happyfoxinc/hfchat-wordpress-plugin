@@ -1,9 +1,11 @@
 === HappyFox Chat - Free Live Chat for WordPress ===
+Contributors: hfsupport
 Tags: banckle, Chat, chat online, chat software, click desk, clickdesk, contact plugin, contact us,customer support, free chat, IM Chat, live chat, live chat inc, live chat services, live chat software, live chatting, live help, live support, live web chat, livechat, olark, online chat, online support, php live chat, snapengage, support software, Website Chat, WordPress chat,wordpress live chat, wordpress live chat plugin, zendesk, Zopim, Zopim live chat, HappyFox, Shopify, Pipedrive, sales chat, salesforce
+Stable tag: 1.1.1
 Requires at least: 3.5
-Tested up to: 4.2.3
+Tested up to: 4.3
 
-Voted No.1 Live chat software on ProductHunt. Fully loaded with features like unlimited chats, fully customizable widget, app integrations, chat history, canned responses & more. Free for life!
+Voted No.1 Live chat software on ProductHunt. Fully loaded with features like unlimited chats, fully customizable widget, app integrations & more.
 
 == Description ==
 Convert anonymous visitors on your website to leads with HappyFox Chat - Live chat software for the next generation. Improve conversion rates 10X on your ecommerce store, by integrating with third party apps like Shopify, Google Analytics & more. Free!

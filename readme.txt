@@ -8,7 +8,7 @@ Tested up to: 4.3
 Voted No.1 Live chat software on ProductHunt. Fully loaded with features like unlimited chats, fully customizable widget, app integrations & more.
 
 == Description ==
-Convert anonymous visitors on your website to leads with HappyFox Chat - Live chat software for the next generation. Improve conversion rates 10X on your ecommerce store, by integrating with third party apps like Shopify, Google Analytics & more. Free!
+Convert anonymous visitors on your website to leads with HappyFox Chat - Live chat software for the next generation. Improve conversion rates 10X on your ecommerce store, by integrating with third party apps like Shopify, Google Analytics & more. Sign up Free here - [https://www.happyfoxchat.com](https://www.happyfoxchat.com)
 
 **Why HappyFox Chat?**
 
@@ -65,11 +65,12 @@ Support - [support@happyfoxchat.com](mailto:support@happyfoxchat.com) Or Chat at
 Twitter - [@happyfoxchat](https://twitter.com/happyfoxchat)
 
 == Screenshots ==
-1. HappyFox Chat Agent interface
-2. Integration details in chat widget
-3. Customisable look and Feel
-4. Chat history
-5. App store
+1. Personalize your live chat experience with custom widgets
+2. HappyFox Chat Agent interface
+3. Integration details in chat widget
+4. Customisable look and Feel
+5. Chat history
+6. App store
 
 == Installation ==
 
